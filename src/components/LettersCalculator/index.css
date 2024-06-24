@@ -1,0 +1,79 @@
+/* Write your code here. */
+
+* {
+  margin: 0;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculate-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 36px;
+  margin-left: 36px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 59px;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.label-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.input-box {
+  font-family: 'Roboto';
+  font-size: 18px;
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  border-width: 0px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  padding-left: 10px;
+  margin-bottom: 18px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 23px;
+}
+
+.letters-count {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 500;
+  color: #219a6f;
+  background-color: #ffffff;
+  padding: 14px;
+  height: 90px;
+  width: 300px;
+  border-radius: 14px;
+}
+
+.stopwatch-container {
+  display: flex;
+  margin-right: 32px;
+  padding-right: 32px;
+}
+
+.stopwatch-image {
+  height: 100%;
+  width: 100%;
+}
